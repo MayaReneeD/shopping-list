@@ -17,9 +17,9 @@ $(function(){
   })  
   $('ul').on('click','.shopping-item-toggle', function(event){
     $(this).closest('li')
-    .find('shopping-item')
+    .find('.shopping-item')
     .toggleClass
-    ('.shopping-item_checked');
+    ('shopping-item__checked');
   
   })
 
